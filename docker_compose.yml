@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  milvus:
+    image: milvusdb/milvus:latest
+    container_name: milvus-standalone
+    ports:
+      - "19530:19530"
+      - "19121:19121"
+    environment:
+      - TZ=UTC
