@@ -56,14 +56,16 @@ python webscrap.py
 Output :
 ![Diagram](imgs/output/webscrap.png)
 
-### 6. Run this after webscrapping 
+### 7. Do setup milvus using docker and use yml config
+
+### 8. Run this after webscrapping to Data Chunking and Vector Database Creation,
 ```ssh
 python data_preprocess.py 
 ```
 Output :
 ![Diagram](imgs/output/preprocess.png)
 
-### 7. Run this after runnning all previous scripts for UI 
+### 9. Run this after runnning all previous scripts for Retrieval and Re-ranking and UI 
 ```ssh
 streamlit run question-answer-app.py
 ```
