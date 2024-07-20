@@ -54,21 +54,21 @@ python webscrap.py
 ``` 
 
 Output :
-![Diagram](imgs/webscrap.png)
+![Diagram](imgs/output/webscrap.png)
 
 ### 6. Run this after webscrapping 
 ```ssh
 python data_preprocess.py 
 ```
 Output :
-![Diagram](imgs/preprocess.png)
+![Diagram](imgs/output/preprocess.png)
 
 ### 7. Run this after runnning all previous scripts for UI 
 ```ssh
 streamlit run question-answer-app.py
 ```
 Script Output :
-![Diagram](imgs/start-app.png)
+![Diagram](imgs/output/start-app.png)
 
 UI Output :
-![Diagram](imgs/app.png)
+![Diagram](imgs/output/app.png)
